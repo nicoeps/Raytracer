@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
 using SDL2;
 
@@ -74,7 +73,6 @@ namespace Raytracer
                 }
             }
             
-
             SDL.SDL_Event e;
             bool quit = false;
             while (!quit)
